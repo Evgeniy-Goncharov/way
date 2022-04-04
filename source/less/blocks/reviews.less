@@ -1,0 +1,141 @@
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 64px;
+  position: relative;
+}
+
+.reviews__image {
+  width: 100%;
+  display: block;
+  height: 415px;
+  object-fit: cover;
+}
+
+.reviews__content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: @white;
+  width: 268px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 30px 20px 34px;
+  height: 431px;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+
+  p {
+    margin-bottom: 17px;
+  }
+}
+
+.reviews__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  position: relative;
+  letter-spacing: -0.7px;
+
+  &::before {
+    content: "";
+    width: 68px;
+    height: 1px;
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: @orange;
+  }
+}
+
+.reviews__avatar {
+  display: block;
+  margin: 0 auto;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.reviews__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 11px;
+  display: block;
+  letter-spacing: -0.5px;
+}
+
+@media (min-width: @tablet-width) {
+  .reviews {
+    padding-top: 30px;
+    padding-bottom: 32px;
+  }
+
+  .reviews__content {
+    width: 382px;
+    height: 367px;
+    text-align: left;
+    top: 110px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+    p {
+      letter-spacing: -0.4px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .reviews__title {
+    font-size: 30px;
+    line-height: 37px;
+
+    &::before {
+      right: auto;
+    }
+  }
+
+  .reviews__author {
+    display: flex;
+    align-items: center;
+  }
+
+  .reviews__avatar {
+    margin: 0;
+    margin-right: 15px;
+    display: inline-block;
+  }
+
+  .reviews__name {
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+@media (min-width: @desk-width) {
+  .reviews {
+    min-width: 700px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .reviews__content {
+    margin-right: 0;
+    padding-top: 34px;
+    height: auto;
+    min-height: 370px;
+    max-height: 480px;
+  }
+
+  .reviews__image {
+    width: 430px;
+    height: 596px;
+  }
+}

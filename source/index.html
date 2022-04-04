@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Путешестевие по Европе</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preload" href="fonts/montserrat.woff2" as="font">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="favicon.ico" rel="icon">
+  <link href="img/favicons/favicon.svg" rel="icon" type="image/svg+xml">
+  <link href="img/favicons/180.png" rel="apple-touch-icon">
+  <link href="manifest.webmanifest" rel="manifest">
+</head>
+
+<body class="page__body">
+  <header class="page-header page-header--no-js">
+    <div class="page-header__flex">
+      <a class="page-header__logo">
+        <img src="img/logos/logo.svg" width="44" height="18" alt="Путешествия по Европе">
+      </a>
+
+      <button class="menu-button menu-button--no-js page-header__menu-button" type="button"><span
+          class=visually-hidden>Открыть меню</span></button>
+
+      <nav class="main-nav main-nav--no-js">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--current">
+            <a class="js-anchor" href="#locations">
+              О путешествии
+              <svg width="8" height="12">
+                <use href="img/sprite.svg#arrow"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="main-nav__item">
+            <a class="js-anchor" href="#price">
+              Цены
+              <svg width="8" height="12">
+                <use href="img/sprite.svg#arrow"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="main-nav__item main-nav__item--phone">
+            <a href="tel:+749978468446">
+              <svg width="30" height="30">
+                <use href="img/sprite.svg#phone"></use>
+              </svg>
+              +7 (499) -784-684-46
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="intro">
+      <div class="container">
+        <h1 class="intro__title page-title">Путешествие по Европе</h1>
+        <p class="intro__text">
+          В этом туре вы откроете для себя Европу в новом свете. Вас ждет: море, горы, а также потрясающая красота
+          природы.
+        </p>
+        <a class="intro__button button button--desktop-w-340" href="#descriptions">
+          Смотреть тур
+          <span class="button__icon">
+            <svg width="16" height="16">
+              <use href="img/sprite.svg#button-arrow"></use>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="locations container" id="locations">
+      <h2 class="section-title">Места посещения</h2>
+      <p class="locations__text">Вы можете выбрать полный тур или частичный, с посещением первых 3 мест</p>
+
+      <ul class="locations__list">
+        <li class="locations__item">
+          <a class="locations__link" href="#descriptions" data-slide="0">
+            <figure class="locations__figure">
+              <picture>
+                <source type="image/webp" media="(min-width: 1212px)"
+                  srcset="img/locations/greece.webp 1x, img/locations/greece@2x.webp 2x">
+                <source type="image/webp"
+                  srcset="img/locations/greece--mobile.webp 1x, img/locations/greece--mobile@2x.webp 2x">
+                <source media="(min-width: 1212px)"
+                  srcset="img/locations/greece.jpg 1x, img/locations/greece@2x.jpg 2x">
+                <img class="locations__image" src="img/locations/greece--mobile.jpg"
+                  srcset="img/locations/greece--mobile@2x.jpg 2x" alt="Горы в Греции" width="288" height="425">
+              </picture>
+              <figcaption class="locations__name">Греция</figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li class="locations__item">
+          <a class="locations__link" href="#descriptions" data-slide="1">
+            <figure class="locations__figure">
+              <picture>
+                <source type="image/webp" media="(min-width: 1212px)"
+                  srcset="img/locations/albania.webp 1x, img/locations/albania@2x.webp 2x">
+                <source type="image/webp"
+                  srcset="img/locations/albania--mobile.webp 1x, img/locations/albania--mobile@2x.webp 2x">
+                <source media="(min-width: 1212px)"
+                  srcset="img/locations/albania.jpg 1x, img/locations/albania@2x.jpg 2x">
+                <img class="locations__image" src="img/locations/albania--mobile.jpg"
+                  srcset="img/locations/albania--mobile@2x.jpg 2x" alt="Горы в Греции" width="288" height="425">
+              </picture>
+              <figcaption class="locations__name">Албания</figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li class="locations__item">
+          <a class="locations__link" href="#descriptions" data-slide="2">
+            <figure class="locations__figure">
+              <picture>
+                <source type="image/webp" media="(min-width: 1212px)"
+                  srcset="img/locations/macedonia.webp 1x, img/locations/macedonia@2x.webp 2x">
+                <source type="image/webp"
+                  srcset="img/locations/macedonia--mobile.webp 1x, img/locations/macedonia--mobile@2x.webp 2x">
+                <source media="(min-width: 1212px)"
+                  srcset="img/locations/macedonia.jpg 1x, img/locations/macedonia@2x.jpg 2x">
+                <img class="locations__image" src="img/locations/macedonia--mobile.jpg"
+                  srcset="img/locations/macedonia--mobile@2x.jpg 2x" alt="Горы в Греции" width="288" height="425">
+              </picture>
+              <figcaption class="locations__name">Македония</figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li class="locations__item">
+          <a class="locations__link" href="#descriptions" data-slide="3">
+            <figure class="locations__figure">
+              <picture>
+                <source type="image/webp" media="(min-width: 1212px)"
+                  srcset="img/locations/montenegro.webp 1x, img/locations/montenegro@2x.webp 2x">
+                <source type="image/webp"
+                  srcset="img/locations/montenegro--mobile.webp 1x, img/locations/montenegro--mobile@2x.webp 2x">
+                <source media="(min-width: 1212px)"
+                  srcset="img/locations/montenegro.jpg 1x, img/locations/montenegro@2x.jpg 2x">
+                <img class="locations__image" src="img/locations/montenegro--mobile.jpg"
+                  srcset="img/locations/montenegro--mobile@2x.jpg 2x" alt="Горы в Греции" width="288" height="425">
+              </picture>
+              <figcaption class="locations__name">Черногория</figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li class="locations__item locations__item--align-center">
+          <a class="locations__link" href="#descriptions" data-slide="4">
+            <figure class="locations__figure">
+              <picture>
+                <source type="image/webp" media="(min-width: 1212px)"
+                  srcset="img/locations/croatia.webp 1x, img/locations/croatia@2x.webp 2x">
+                <source type="image/webp"
+                  srcset="img/locations/croatia--mobile.webp 1x, img/locations/croatia--mobile@2x.webp 2x">
+                <source media="(min-width: 1212px)"
+                  srcset="img/locations/croatia.jpg 1x, img/locations/croatia@2x.jpg 2x">
+                <img class="locations__image" src="img/locations/croatia--mobile.jpg"
+                  srcset="img/locations/croatia--mobile@2x.jpg 2x" alt="Горы в Греции" width="288" height="425">
+              </picture>
+              <figcaption class="locations__name">Хорватия</figcaption>
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="page__bg-wrapper">
+      <section class="descriptions container container--desktop-only" id="descriptions">
+        <h2 class="visually-hidden">Побывайте в лучших местах Европы!</h2>
+        <div class="descriptions__menu swiper">
+          <ul class="descriptions__tabs-list swiper-wrapper">
+            <li class="descriptions__tab swiper-slide">
+              Греция
+            </li>
+
+            <li class="descriptions__tab swiper-slide">
+              Албания
+            </li>
+
+            <li class="descriptions__tab swiper-slide">
+              Македония
+            </li>
+
+            <li class="descriptions__tab swiper-slide">
+              Черногория
+            </li>
+
+            <li class="descriptions__tab swiper-slide">
+              Хорватия
+            </li>
+          </ul>
+        </div>
+
+        <div class="descriptions__wrapper swiper">
+          <ul class="descriptions__list swiper-wrapper">
+            <li class="descriptions__item swiper-slide" id="greece">
+              <div class="descriptions__content">
+                <h3 class="descriptions__item-title">Греция</h3>
+                <p class="descriptions__text">
+                  На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
+                  Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель
+                  нашего
+                  путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в
+                  высоту
+                  600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.
+                </p>
+                <button class="button js-buy" type="button">Купить тур сейчас</button>
+              </div>
+
+              <div class="reviews">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.webp 1x, img/locations/greece-review@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.webp 1x, img/locations/greece-review--tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/locations/greece-review--mobile.webp 1x, img/locations/greece-review--mobile@2x.webp 2x">
+                  <source media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.jpg 1x, img/locations/greece-review@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.jpg 1x, img/locations/greece-review--tablet@2x.jpg 2x">
+                  <img class="reviews__image" src="img/locations/greece-review--mobile.jpg"
+                    srcset="img/locations/greece-review--mobile@2x.jpg 2x" width="320" height="415"
+                    alt="Монастырь на вершине скалы в Греции">
+                </picture>
+                <article class="reviews__content">
+                  <h3 class="reviews__title">Отзывы</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же высоченные скалы. Но
+                        здесь
+                        потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как будто стоишь на краю
+                        света!
+                      </p>
+                      <div class="reviews__author">
+                        <picture>
+                          <source type="image/webp"
+                            srcset="img/avatars/img-1--mobile.webp 1x, img/avatars/img-1--mobile@2x.webp 2x">
+                          <img class="reviews__avatar" src="img/avatars/img-1--mobile.jpg"
+                            srcset="img/avatars/img-1--mobile@2x.jpg 2x" width="38" height="38" alt="Фотография автора">
+                        </picture>
+                        <span class="reviews__name">Влада Голицина</span>
+                      </div>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </li>
+
+            <li class="descriptions__item swiper-slide" id="albania">
+              <div class="descriptions__content">
+                <h3 class="descriptions__item-title">Албания</h3>
+                <p>
+                  На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
+                  Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель
+                  нашего
+                  путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в
+                  высоту
+                  600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.
+                </p>
+                <button class="button js-buy" type="button">Купить тур сейчас</button>
+              </div>
+              <div class="reviews">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.webp 1x, img/locations/greece-review@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.webp 1x, img/locations/greece-review--tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/locations/greece-review--mobile.webp 1x, img/locations/greece-review--mobile@2x.webp 2x">
+                  <source media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.jpg 1x, img/locations/greece-review@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.jpg 1x, img/locations/greece-review--tablet@2x.jpg 2x">
+                  <img class="reviews__image" src="img/locations/greece-review--mobile.jpg"
+                    srcset="img/locations/greece-review--mobile@2x.jpg 2x" width="320" height="415"
+                    alt="Монастырь на вершине скалы в Греции">
+                </picture>
+                <article class="reviews__content">
+                  <h3 class="reviews__title">Отзывы</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же высоченные скалы. Но
+                        здесь
+                        потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как будто стоишь на краю
+                        света!
+                      </p>
+                      <div class="reviews__author">
+                        <picture>
+                          <source type="image/webp"
+                            srcset="img/avatars/img-1--mobile.webp 1x, img/avatars/img-1--mobile@2x.webp 2x">
+                          <img class="reviews__avatar" src="img/avatars/img-1--mobile.jpg"
+                            srcset="img/avatars/img-1--mobile@2x.jpg 2x" width="38" height="38" alt="Фотография автора">
+                        </picture>
+                        <span class="reviews__name">Влада Голицина</span>
+                      </div>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </li>
+
+            <li class="descriptions__item swiper-slide" id="macedonia">
+              <div class="descriptions__content">
+                <h3 class="descriptions__item-title">Македония</h3>
+                <p>
+                  На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
+                  Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель
+                  нашего
+                  путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в
+                  высоту
+                  600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.
+                </p>
+                <button class="button js-buy" type="button">Купить тур сейчас</button>
+              </div>
+
+              <div class="reviews">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.webp 1x, img/locations/greece-review@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.webp 1x, img/locations/greece-review--tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/locations/greece-review--mobile.webp 1x, img/locations/greece-review--mobile@2x.webp 2x">
+                  <source media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.jpg 1x, img/locations/greece-review@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.jpg 1x, img/locations/greece-review--tablet@2x.jpg 2x">
+                  <img class="reviews__image" src="img/locations/greece-review--mobile.jpg"
+                    srcset="img/locations/greece-review--mobile@2x.jpg 2x" width="320" height="415"
+                    alt="Монастырь на вершине скалы в Греции">
+                </picture>
+                <article class="reviews__content">
+                  <h3 class="reviews__title">Отзывы</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же высоченные скалы. Но
+                        здесь
+                        потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как будто стоишь на краю
+                        света!
+                      </p>
+                      <div class="reviews__author">
+                        <picture>
+                          <source type="image/webp"
+                            srcset="img/avatars/img-1--mobile.webp 1x, img/avatars/img-1--mobile@2x.webp 2x">
+                          <img class="reviews__avatar" src="img/avatars/img-1--mobile.jpg"
+                            srcset="img/avatars/img-1--mobile@2x.jpg 2x" width="38" height="38" alt="Фотография автора">
+                        </picture>
+                        <span class="reviews__name">Влада Голицина</span>
+                      </div>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </li>
+
+            <li class="descriptions__item swiper-slide" id="montenegro">
+              <div class="descriptions__content">
+                <h3 class="descriptions__item-title">Черногория</h3>
+                <p>
+                  На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
+                  Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель
+                  нашего
+                  путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в
+                  высоту
+                  600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.
+                </p>
+                <button class="button js-buy" type="button">Купить тур сейчас</button>
+              </div>
+
+              <div class="reviews">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.webp 1x, img/locations/greece-review@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.webp 1x, img/locations/greece-review--tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/locations/greece-review--mobile.webp 1x, img/locations/greece-review--mobile@2x.webp 2x">
+                  <source media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.jpg 1x, img/locations/greece-review@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.jpg 1x, img/locations/greece-review--tablet@2x.jpg 2x">
+                  <img class="reviews__image" src="img/locations/greece-review--mobile.jpg"
+                    srcset="img/locations/greece-review--mobile@2x.jpg 2x" width="320" height="415"
+                    alt="Монастырь на вершине скалы в Греции">
+                </picture>
+                <article class="reviews__content">
+                  <h3 class="reviews__title">Отзывы</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же высоченные скалы. Но
+                        здесь
+                        потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как будто стоишь на краю
+                        света!
+                      </p>
+                      <div class="reviews__author">
+                        <picture>
+                          <source type="image/webp"
+                            srcset="img/avatars/img-1--mobile.webp 1x, img/avatars/img-1--mobile@2x.webp 2x">
+                          <img class="reviews__avatar" src="img/avatars/img-1--mobile.jpg"
+                            srcset="img/avatars/img-1--mobile@2x.jpg 2x" width="38" height="38" alt="Фотография автора">
+                        </picture>
+                        <span class="reviews__name">Влада Голицина</span>
+                      </div>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </li>
+
+            <li class="descriptions__item swiper-slide" id="croatia">
+              <div class="descriptions__content">
+                <h3 class="descriptions__item-title">Хорватия</h3>
+                <p>
+                  На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
+                  Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель
+                  нашего
+                  путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в
+                  высоту
+                  600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.
+                </p>
+                <button class="button js-buy" type="button">Купить тур сейчас</button>
+              </div>
+
+              <div class="reviews">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.webp 1x, img/locations/greece-review@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.webp 1x, img/locations/greece-review--tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/locations/greece-review--mobile.webp 1x, img/locations/greece-review--mobile@2x.webp 2x">
+                  <source media="(min-width: 1212px)"
+                    srcset="img/locations/greece-review.jpg 1x, img/locations/greece-review@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                    srcset="img/locations/greece-review--tablet.jpg 1x, img/locations/greece-review--tablet@2x.jpg 2x">
+                  <img class="reviews__image" src="img/locations/greece-review--mobile.jpg"
+                    srcset="img/locations/greece-review--mobile@2x.jpg 2x" width="320" height="415"
+                    alt="Монастырь на вершине скалы в Греции">
+                </picture>
+
+                <article class="reviews__content">
+                  <h3 class="reviews__title">Отзывы</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же высоченные скалы. Но
+                        здесь
+                        потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как будто стоишь на краю
+                        света!
+                      </p>
+                      <div class="reviews__author">
+                        <picture>
+                          <source type="image/webp"
+                            srcset="img/avatars/img-1--mobile.webp 1x, img/avatars/img-1--mobile@2x.webp 2x">
+                          <img class="reviews__avatar" src="img/avatars/img-1--mobile.jpg"
+                            srcset="img/avatars/img-1--mobile@2x.jpg 2x" width="38" height="38" alt="Фотография автора">
+                        </picture>
+                        <span class="reviews__name">Влада Голицина</span>
+                      </div>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="price container" id="price">
+        <div class="price__header">
+          <h2 class="price__title section-title">Цены</h2>
+          <p>
+            Специально для Вас мы разработали 2 пакета цен с разными условиями, отталкиваясь от Ваших потребностей и
+            возможностей. Выберите для себя лучший вариант отпуска и отдохните на все 100%!
+          </p>
+          <h3 class="price__contact">Свяжитесь с нами</h3>
+          <a class="price__phone" href="tel:+749978468446">
+            <svg width="30" height="30">
+              <use href="img/sprite.svg#phone"></use>
+            </svg>
+            +7 (499) -784-684-46
+          </a>
+        </div>
+
+        <ul class="price__list">
+          <li>
+            <article class="price-item price-item--active">
+              <div class="price-item__wrapper">
+                <header class="price-item__header">
+                  <h3 class="price-item__title">Комплексный</h3>
+                  <span class="price-item__price">$1999</span>
+                </header>
+
+                <p>
+                  Ознакомьтесь с перечнем того, что входит в данный пакет
+                </p>
+
+                <ul class="price-item__options">
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Разработанный маршрут с гидом группы
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Перелет, трансфер и проживание в отелях
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Завтраки, ужины в отелях и ланчи на природе
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Экскурсии по удивительно красивым местам Европы
+                  </li>
+                </ul>
+              </div>
+
+              <a class="button button--full-width button--desktop-w-310 js-buy" href="#">Купить тур сейчас</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="price-item">
+              <div class="price-item__wrapper">
+                <header class="price-item__header">
+                  <h3 class="price-item__title">Экономный</h3>
+                  <span class="price-item__price">$1399</span>
+                </header>
+
+                <p>
+                  Ознакомьтесь с перечнем того, что входит в данный пакет
+                </p>
+
+                <ul class="price-item__options">
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Разработанный маршрут с гидом группы
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Перелет и трансфер
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Проживание в хостелах при отелях
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Только завтраки в отелях
+                  </li>
+
+                  <li class="price-item__option">
+                    <svg width="22" height="22">
+                      <use href="img/sprite.svg#tick"></use>
+                    </svg>
+                    Экскурсии по удивительно красивым местам Европы
+                  </li>
+                </ul>
+              </div>
+
+              <a class="button button--full-width button--desktop-w-310 js-buy" href="#">Купить тур сейчас</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="feedback container">
+      <form class="feedback__form js-form" method="POST" action="https://echo.htmlacademy.ru">
+        <h2 class="feedback__title">У Вас остались вопросы?</h2>
+        <p>
+          Оставьте свой номер или e-mail и мы свяжемся с Вами
+        </p>
+        <div class="feedback__grid">
+          <label class="label label--phone">
+            <span class="visually-hidden">Ваш номер телефона</span>
+            <input class="input input--phone" type="tel" name="phone" placeholder="Введите 10 цифр номера" required>
+          </label>
+
+          <label class="label">
+            <span class="visually-hidden">Ваша электронная почта</span>
+            <input class="input" type="email" name="email" placeholder="E-mail">
+          </label>
+        </div>
+        <input class="button button--desktop-h-50 button--desktop-w-176" type="submit" name="submit" value="Отправить">
+      </form>
+    </section>
+
+    <aside class="buy">
+      <h2 class="buy__title">Купить тур</h2>
+      <form class="js-form" method="POST" action="https://echo.htmlacademy.ru">
+        <label class="label label--phone">
+          <span class="visually-hidden">Ваш номер телефона</span>
+          <input class="input input--phone" type="tel" name="phone" placeholder="Введите 10 цифр номера" required>
+        </label>
+
+        <label class="label">
+          <span class="visually-hidden">Ваша электронная почта</span>
+          <input class="input" type="email" name="email" placeholder="E-mail">
+        </label>
+
+        <input class="button button--tablet-w-174 button--bold-text button--desktop-h-50 js-button-submit" type="submit"
+          name="submit" value="Отправить">
+      </form>
+
+      <button class="buy__button-close js-button-close" type="button">
+        <span class="visually-hidden">Закрыть окно</span>
+      </button>
+    </aside>
+
+    <aside class="success">
+      <h2 class="success__title">
+        Форма успешно отправлена,<br>
+        спасибо! :)
+      </h2>
+
+      <button class="success__button-close js-button-close" type="button">
+        <span class="visually-hidden">Закрыть окно</span>
+      </button>
+    </aside>
+  </main>
+
+  <footer class="page-footer container container--desktop-only">
+    <div class="page-footer__top">
+      <section class="next container">
+        <h2 class="section-title section-title--small">Следующие путешествия</h2>
+
+        <div class="next__grid">
+          <ul class="next__list">
+            <li>Марсель</li>
+            <li>Ним</li>
+            <li>Монпелье</li>
+            <li>Барселона</li>
+            <li>Пальма</li>
+          </ul>
+
+          <ul class="next__list">
+            <li>Сардиния</li>
+            <li>Палермо</li>
+            <li>Катания</li>
+            <li>Неаполь</li>
+            <li>Рим</li>
+          </ul>
+
+          <ul class="next__list">
+            <li>Корс</li>
+            <li>Ницца</li>
+            <li>Монако</li>
+            <li>Динь-ле-Бен</li>
+            <li>Гренобль</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts container">
+        <h2 class="contacts__title section-title section-title--small">Наши контакты</h2>
+
+        <a class="contacts__link" href="mailto:puteshestviemechta@gmail.ru">
+          <svg width="26" height="20">
+            <use href="img/sprite.svg#mail"></use>
+          </svg>
+          puteshestviemechta@gmail.ru
+        </a>
+        <br>
+        <a class="contacts__link contacts__link--phone" href="tel:+749978468446">
+          <svg width="30" height="30">
+            <use href="img/sprite.svg#phone"></use>
+          </svg>
+          +7 (499) -784-684-46
+        </a>
+      </section>
+    </div>
+
+    <section class="corporate container">
+      <h2 class="section-title section-title--small">Корпоративные путешествия</h2>
+      <p>
+        Также вы можете заказать индивидуальное путешествие под вашу компанию. <br> Подобные туры очень сближают <br>
+        компанию,
+        помогают поддерживать корпоративный дух, а также являются оличным времяпрепровождением
+      </p>
+    </section>
+  </footer>
+
+  <script src="js/swiper-bundle.js"></script>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
